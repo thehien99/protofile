@@ -2,7 +2,7 @@ import './content.css'
 import chuky from './asset/signature (4).png'
 const Content = () => {
   return (
-    <div className="lg:w-[40%] w-full flex justify-center items-center lg:mt-2 me-8 mt-8">
+    <div className="lg:w-[40%] w-full flex justify-center items-center lg:mt-[0.5rem] me-8 mt-8">
       <div className="w-[40%] ">
         <div className="teaching_assistant h-full mb-[50px] text-center">
 
@@ -72,13 +72,13 @@ const Content = () => {
                   - Maika Extension,
                 </li>
                 <li className="mt-3">
-                  - Online room management,....
+                  - Online room management
                 </li>
               </ul>
             </span>
           </div>
         </div>
-        <img src={chuky} alt="" className='w-[50%] mt-[7rem] ms-[10rem] ' />
+        <img src={chuky} alt="" className='w-[50%] mt-[5rem] ms-[10rem] ' />
       </div>
     </div >
   )

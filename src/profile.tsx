@@ -8,8 +8,8 @@ const Profile = () => (
     <h1 className='text-4xl font-bold font-mono ms-20 mt-5 italic'>Hien Dang</h1>
     <h2 className='text-2xl italic font-bold ms-12 mt-5'>FrontEnd Developer</h2>
     <div className='relative mt-[32px]'>
-      <img src={avatar} alt="" className='object-contain w-[730px] h-full' />
-      <div className='w-[44rem] ms-[40px] lg:w-[350px] lg:absolute lg:top-[250px] lg:left-[36rem] '>
+      <img src={avatar} alt="" className='object-contain w-[630px] h-full' />
+      <div className='w-[44rem] ms-[40px] lg:w-[300px] lg:absolute lg:top-[250px] lg:left-[30rem] '>
         <i className='bg-#000 text-[#fff] font-normal font-sans '>"As a person who likes to innovate,
           can withstand work pressure and
           assigned job responsibilities. Always
@@ -17,7 +17,7 @@ const Profile = () => (
           results for you."
         </i>
       </div>
-      <div className='lg:absolute lg:bottom-[2rem] lg:left-[42rem] mt-[30px] flex lg:block ms-[20px]'>
+      <div className='lg:absolute lg:bottom-[1rem] lg:left-[34rem] mt-[30px] flex lg:block ms-[20px]'>
         <i className="fa-brands fa-html5 ms-5" style={{ color: "#e66401", fontSize: '3rem' }}></i>
         <i className="fa-brands fa-css3-alt ms-5" style={{ color: "#078aed", fontSize: '3rem' }}></i>
         <i className="fa-brands fa-js ms-5" style={{ color: "#FFD43B", fontSize: '3rem' }}></i>
