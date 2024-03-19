@@ -2,7 +2,7 @@ import './content.css'
 import chuky from './asset/signature (4).png'
 const Content = () => {
   return (
-    <div className="xl:w-[43%] w-full flex justify-center items-center lg:mt-[0.5rem] me-8 mt-[10rem] ms-8">
+    <div className="xl:w-[43%] w-full flex justify-center items-center lg:mt-[0.5rem] me-8 mt-[3rem] ms-8">
       <div className="w-[40%]">
         <div className="teaching_assistant h-full mb-[50px] text-center">
           <div className="flex justify-end mb-2">
