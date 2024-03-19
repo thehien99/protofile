@@ -2,14 +2,13 @@ import './content.css'
 import chuky from './asset/signature (4).png'
 const Content = () => {
   return (
-    <div className="lg:w-[40%] w-full flex justify-center items-center lg:mt-[0.5rem] me-8 mt-8">
-      <div className="w-[40%] ">
+    <div className="xl:w-[43%] w-full flex justify-center items-center lg:mt-[0.5rem] me-8 mt-[10rem] ms-8">
+      <div className="w-[40%]">
         <div className="teaching_assistant h-full mb-[50px] text-center">
-
           <div className="flex justify-end mb-2">
-            <h3 className="text-[#fff] text-xl font-bold font-serif lg:flex lg:flex-col me-4">
+            <h3 className="text-[#fff] text-xl font-bold font-serif lg:flex lg:flex-col me-4 xl:flex xl:flex-col flex flex-col">
               GreenAcademy
-              <i className="lg:flex lg:justify-center lg:items-center">(11/2022 - 1/2023)</i>
+              <i className="lg:flex lg:justify-center lg:items-center xl:flex">(11/2022 - 1/2023)</i>
             </h3>
             <i className="fa-solid fa-left-long" style={{ color: "#dd085d", fontSize: "2rem" }}></i>
           </div>
@@ -23,7 +22,7 @@ const Content = () => {
 
         <div className="greenacademy h-full mb-[50px] text-center">
           <div className="flex justify-end mb-2">
-            <h3 className="text-[#fff] text-xl font-bold font-serif lg:flex lg:flex-col me-4">
+            <h3 className="text-[#fff] text-xl font-bold font-serif lg:flex lg:flex-col me-4  flex flex-col">
               GreenAcademy
               <i className="lg:flex lg:justify-center lg:items-center">(11/2021 - 11/2022)</i>
             </h3>
@@ -39,7 +38,7 @@ const Content = () => {
 
         <div className="college text-center">
           <div className="flex justify-end mb-2">
-            <h3 className="text-[#fff] text-xl font-bold font-serif lg:flex flex  lg:flex-col lg:me-4 me-2 ">
+            <h3 className="text-[#fff] text-xl font-bold font-serif lg:flex lg:flex-col lg:me-4 me-2  flex flex-col ">
               Thu Duc College
               <i className="flex justify-center items-center">(10/2018 - 3/2020)</i>
             </h3>
@@ -49,11 +48,11 @@ const Content = () => {
         </div>
       </div >
 
-      <div className="w-[60%] border-l-4 lg:no-border">
+      <div className="w-[57%] border-l-4 lg:no-border">
         <div className="h-full mb-[50px] text-center">
           <div className="flex justify-start mb-2">
             <i className="fa-solid fa-right-long" style={{ color: "#dd085d", fontSize: "2rem" }}></i>
-            <h3 className="text-[#fff] text-xl font-bold font-serif lg:flex flex lg:flex-col ms-4">
+            <h3 className="text-[#fff] text-xl font-bold font-serif lg:flex flex lg:flex-col ms-4 flex-col">
               Olli Technology Company
               <i className="flex justify-center items-center">(2/2023 - 3/2024)</i>
             </h3>
@@ -63,16 +62,16 @@ const Content = () => {
               Take on a position assigned by the company as a FrontEnd intern with thinking and coding skills, assisting other teams in product development. Some of the projects I've done:
               <ul className="flex items-start flex-col mt-4 ">
                 <li className="mt-3">
-                  - The main website of the Company,
+                  -The main website of the Company,
                 </li>
                 <li className="mt-3">
-                  - Maika App,
+                  -Maika App,
                 </li>
                 <li className="mt-3">
-                  - Maika Extension,
+                  -Maika Extension,
                 </li>
                 <li className="mt-3">
-                  - Online room management
+                  -Online room management
                 </li>
               </ul>
             </span>
