@@ -2,8 +2,8 @@ import './content.css'
 import chuky from './asset/signature (4).png'
 const Content = () => {
   return (
-    <div className="xl:w-[43%] w-full flex justify-center items-center lg:mt-[0.5rem] me-8 mt-[3rem] ms-8">
-      <div className="w-[40%]">
+    <div className="xl:w-[50%] lg:w-[95%] w-full flex justify-center items-center lg:mt-[0.5rem] mt-[3rem]">
+      <div className="w-[50%]">
         <div className="teaching_assistant h-full mb-[50px] text-center">
           <div className="flex justify-end mb-2">
             <h3 className="text-[#fff] text-xl font-bold font-serif lg:flex lg:flex-col me-4 xl:flex xl:flex-col flex flex-col">
@@ -48,7 +48,7 @@ const Content = () => {
         </div>
       </div >
 
-      <div className="w-[57%] border-l-4 lg:no-border">
+      <div className="w-[50%] border-l-4 ">
         <div className="h-full mb-[50px] text-center">
           <div className="flex justify-start mb-2">
             <i className="fa-solid fa-right-long" style={{ color: "#dd085d", fontSize: "2rem" }}></i>
@@ -77,7 +77,7 @@ const Content = () => {
             </span>
           </div>
         </div>
-        <img src={chuky} alt="" className='w-[50%] mt-[5rem] ms-[10rem] ' />
+        {/* <img src={chuky} alt="" className='w-[50%] mt-[5rem] ms-[10rem]' /> */}
       </div>
     </div >
   )

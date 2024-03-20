@@ -4,7 +4,7 @@ import Profile from "./profile"
 function App() {
   return (
     <div className="homepage w-full h-full">
-      <div className="navbar w-full h-[50px] lg:flex lg:justify-center items-center border-b-2 border-[#E1DBD1] ms-2 " >
+      <div className="navbar w-full h-[50px] lg:flex lg:justify-center items-center border-b-2 border-[#E1DBD1] flex flex-col  " >
         <span>
           <i className="fa-solid fa-envelope text-center " style={{ color: "#FF4979" }}></i>
           <i className="text-[#FF4979] ms-2 font-bold">thehien9299@gmail.com</i>
