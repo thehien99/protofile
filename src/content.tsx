@@ -1,5 +1,4 @@
-import './content.css'
-import chuky from './asset/signature (4).png'
+
 const Content = () => {
   return (
     <div className="xl:w-[50%] lg:w-[95%] w-full flex justify-center items-center lg:mt-[0.5rem] mt-[3rem]">
@@ -77,7 +76,6 @@ const Content = () => {
             </span>
           </div>
         </div>
-        {/* <img src={chuky} alt="" className='w-[50%] mt-[5rem] ms-[10rem]' /> */}
       </div>
     </div >
   )
