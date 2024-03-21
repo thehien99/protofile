@@ -24,7 +24,7 @@ const Profile = () => (
         <div className='absolute lg:left-[11rem] lg:mt-1 xl:left-[11rem] w-[2.6rem] ms-[20px] xl:mt-1'>
           <img src={typescript} alt="" />
         </div>
-        <div className='absolute  flex w-full xl:top-[53px] xl:left-[20px] lg:top-[6px] lg:left-[16.5rem]'>
+        <div className='absolute  flex w-[2.4rem] xl:top-[53px] xl:left-[20px] lg:top-[6px] lg:left-[16.5rem]'>
           <img src={tailwind} alt="" />
           <i className="fa-brands fa-react mx-[0.70rem] " style={{ color: "#0e8ff1", fontSize: '2.5rem' }}></i>
           <img src={sveltekit} alt="" className='ms-4' />
