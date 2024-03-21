@@ -1,7 +1,7 @@
 
 const Content = () => {
   return (
-    <div className="xl:w-[50%] lg:w-[95%] w-full flex justify-center items-center lg:mt-[0.5rem] mt-[3rem]">
+    <div className="xl:w-[50%] lg:w-full w-full flex justify-center items-center lg:mt-[0.5rem] mt-[3rem]">
       <div className="w-[50%]">
         <div className="teaching_assistant h-full mb-[50px] text-center">
           <div className="flex justify-end mb-2">
@@ -27,8 +27,8 @@ const Content = () => {
             </h3>
             <i className="fa-solid fa-left-long" style={{ color: "#dd085d", fontSize: "2rem" }}></i>
           </div>
-          <div className="flex flex-col items-center mt-2 text-xl">
-            <span className="italic text-[#ccc] opacity-50 text-center flex flex-col items-start">Learn about FullStack.
+          <div className="flex flex-col items-end xl:me-10 mt-2 text-xl">
+            <span className="italic text-[#ccc] opacity-50 text-center flex flex-col items-start">Learn about FullStack
               <span> FrontEnd: ReactJs</span>
               <span>BackEnd: NodeJs</span>
             </span>
